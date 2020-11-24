@@ -1,0 +1,47 @@
+body {
+    background-color: #dddfd4;
+}
+
+header {
+    display: block;
+    background-color: #fae596;
+    width: 1367px;
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 110px;
+}
+
+img {
+    border-radius: 30%;
+    margin-top: 3px;
+}
+
+#heading {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 40px;
+    margin-left: 7px;
+    font-style: italic;
+    margin-top: -10px;
+}
+
+#icons{
+    float: right;
+    padding-top: 15px;
+  font-size: 20px;
+}
+
+@media (max-width: 575.98px) {
+    .class{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+        .class{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    float: left;
+}
