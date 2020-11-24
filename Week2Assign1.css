@@ -1,0 +1,137 @@
+ body {
+     background-color: #8CBED6;
+ }
+
+ h2 {
+     font-family: cursive;
+
+ }
+
+ p {
+     font-family: cursive;
+ }
+
+#menu{
+    margin-top: 60px;
+}
+
+ #header1 {
+     text-align: right;
+     text-align: center;
+     background-color: #E3BFB7;
+     border: 1px solid black;
+     border-bottom: 2px solid black;
+     width: 27%;
+     height: 50px;
+     float: right;
+     padding-bottom: 16px;
+     border-left: 2px solid black;
+ }
+
+ #header2 {
+     text-align: right;
+     text-align: center;
+     background-color: #B22222;
+     border: 1px solid black;
+     border-bottom: 2px solid black;
+     width: 25%;
+     height: 50px;
+     float: right;
+     padding-bottom: 16px;
+     border-left: 2px solid black;
+ }
+
+ #header3 {
+     text-align: right;
+     text-align: center;
+     background-color: #FFE57C;
+     border: 1px solid black;
+     border-bottom: 2px solid black;
+     border-left: 2px solid black;
+     width: 35%;
+     height: 50px;
+     float: right;
+     padding-bottom: 16px;
+
+ }
+
+ #card1 {
+     background-color: #BEBDB8;
+     width: 320px;
+     height: 250px;
+     margin-left: 60px;
+     border: 2px solid black;
+ }
+
+ #card2 {
+     background-color: #BEBDB8;
+     width: 320px;
+     height: 250px;
+     margin-left: 40px;
+     border: 2px solid black;
+ }
+
+ #card3 {
+     background-color: #BEBDB8;
+     width: 320px;
+     height: 250px;
+     margin-left: 40px;
+     border: 2px solid black;
+ }
+
+ h1 {
+     font-family: cursive;
+ }
+
+ @media (min-width: 992px) and (max-width: 2100px) {
+     #card1 {
+         width: 350px;
+         float: left;
+     }
+
+     #card2 {
+         width: 350px;
+         float: left;
+     }
+
+     #card3 {
+         width: 350px;
+         float: left;
+     }
+ }
+
+ @media (min-width: 768px) and (max-width: 991px) {
+     #card1 {
+         width: 35%;
+         float: left;
+         margin-left: 10px;
+     }
+
+     #card2 {
+         width: 35%;
+         margin-left: 10%;
+     }
+
+     #card3 {
+         margin-top: 40px;
+         width: 70%;
+         margin-left: -250px;
+     }
+ }
+
+ @media (max-width: 767px) {
+     #card1 {
+         width: 80%;
+         margin-top: 40px;
+     }
+
+     #card2 {
+         width: 80%;
+         margin-top: 40px;
+     }
+
+     #card3 {
+         width: 80%;
+         margin-top: 40px;
+     }
+ }
